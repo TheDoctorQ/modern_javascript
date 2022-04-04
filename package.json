@@ -18,5 +18,9 @@
   "homepage": "https://github.com/actualize-onl-2022-01/modern_javascript#readme",
   "dependencies": {
     "moment": "^2.29.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2"
   }
 }
