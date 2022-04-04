@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/actualize-onl-2022-01/modern_javascript#readme",
   "dependencies": {
+    "chance": "^1.1.8",
     "moment": "^2.29.2"
   },
   "devDependencies": {
