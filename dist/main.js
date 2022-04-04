@@ -15,7 +15,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\"); \nvar Chance = __webpack_require__(/*! chance */ \"./node_modules/chance/chance.js\");\n\nconsole.log('in javascript')\n\nconsole.log(moment().format(\"MMM Do YY\"));\n\n\n\n\n// Instantiate Chance so it can be used\nvar chance = new Chance();\n\n// Use Chance here.\nvar my_random_string = chance.string();\nconsole.log(my_random_string);\n\nconsole.log('HELLOOOOOOO')\n// js\n// can't access files, because it runs on other people's computers\n\n\n// nodejs\n// can access files, cannot run in browser\n\n\n// ruby\n// has access to files, cannot run in browser\n\n\n//# sourceURL=webpack://modern_javascript/./index.js?");
+eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nvar Chance = __webpack_require__(/*! chance */ \"./node_modules/chance/chance.js\");\n\nconsole.log('in javascript');\nconsole.log(moment().format(\"MMM Do YY\")); // Instantiate Chance so it can be used\n\nvar chance = new Chance(); // Use Chance here.\n\nvar my_random_string = chance.string();\nconsole.log(my_random_string); // console.log('HELLOOOOOOO')\n\nvar name = \"Bob\",\n    time = \"today\";\nconsole.log(\"Hello \".concat(name, \", how are you \").concat(time, \"?\")); // js\n// can't access files, because it runs on other people's computers\n// nodejs\n// can access files, cannot run in browser\n// ruby\n// has access to files, cannot run in browser\n// IE6\n// babel\n// converts new js (es2015) to old js\n\n//# sourceURL=webpack://modern_javascript/./index.js?");
 
 /***/ }),
 

@@ -15,7 +15,12 @@ var chance = new Chance();
 var my_random_string = chance.string();
 console.log(my_random_string);
 
-console.log('HELLOOOOOOO')
+// console.log('HELLOOOOOOO')
+var name = "Bob", time = "today";
+console.log(`Hello ${name}, how are you ${time}?`);
+
+
+
 // js
 // can't access files, because it runs on other people's computers
 
@@ -26,3 +31,8 @@ console.log('HELLOOOOOOO')
 
 // ruby
 // has access to files, cannot run in browser
+
+// IE6
+
+// babel
+// converts new js (es2015) to old js
